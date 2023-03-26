@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main_section h1 {
+  padding: 10px 0px 10px 20px;
+}
+.second_main_sect {
+  background-color: #e9e5e5;
+  width: 94%;
+  height: 340px;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  border-bottom: 1px solid gray;
+}
+.days p{
+        text-align: center;
+}
+.day1,
+.day2,
+.day3,
+.day4,
+.day5,
+.day6,
+.day7 {
+  padding: 6px;
+}
+
+.month_days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.month_days p {
+  color: white;
+  text-align: center;
+}
+.month_days h5 {
+  text-align: center;
+  color: white;
+}
+.mo1,
+.mo2,
+.mo3,
+.mo4,
+.mo5,
+.mo6,
+.mo7,
+.mo8,
+.mo9,
+.mo10,
+.mo11,
+.mo12,
+.mo13,
+.mo14,
+.mo15,
+.mo16,
+.mo17,
+.mo18,
+.mo19,
+.mo20,
+.mo21,
+.mo22,
+.mo23,
+.mo24,
+.mo25,
+.mo26,
+.mo27,
+.mo28,
+.mo29,
+.mo30,
+.mo31 {
+  padding: 6px;
+  background-color: blueviolet;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.border_botoo {
+  display: flex;
+  border-bottom: 1px solid white;
+  margin: 3px 0px 3px 0px;
+}
